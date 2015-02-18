@@ -64,4 +64,7 @@ Etsydemo::Application.configure do
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
-end
+
+  # Required for Devise. Remember to change local host 3000 to actual applicaiton host
+  confi.action_mailer.default_url_options = { host: 'localhost' => 'localhost:3000'}
+  end
