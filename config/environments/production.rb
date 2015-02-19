@@ -66,5 +66,5 @@ Etsydemo::Application.configure do
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
 
   # Required for Devise. Remember to change local host 3000 to actual applicaiton host
-  confi.action_mailer.default_url_options = { host: 'localhost' => 'localhost:3000'}
+  config.action_mailer.default_url_options = { host: 'localhost' => 'localhost:3000'}
   end
